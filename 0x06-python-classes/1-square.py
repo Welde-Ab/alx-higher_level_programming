@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-"""This program is about squares"""
+"""Define a class Square."""
 
 
 class Square:
-    """This class defines fields and methods of squares"""
+    """Represent a square."""
+
     def __init__(self, size):
-        """This method accepts the initial value of the square"""
+        """Initialize a new Square.
+
+        Args:
+            size (int): The size of the new square.
+        """
         self.__size = size
