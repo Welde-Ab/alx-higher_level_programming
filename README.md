@@ -1,1 +1,1 @@
-# Higher-level programming in python
+# Python - Object Oriented Programming
