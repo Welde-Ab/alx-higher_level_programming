@@ -1,0 +1,1 @@
+Another Python project that covers the basics of OOP and Test Driven Development (TDD)
