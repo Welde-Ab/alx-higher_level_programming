@@ -16,6 +16,9 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
+        """
+        Initialize id, and increment nb_objects to track count
+        """
         if id is not None:
             self.id = id
         else:
@@ -84,7 +87,7 @@ class Base:
         try:
             with open(file_name, encoding="UTF8") as fd:
                 content = cls.from_json_string(fd.read())
-        except:
+        except FileNotFoundError:
             return []
 
         instances = []
